@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navigator -->
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="https://seeklogo.com/images/C/cecytem-logo-57EA94498B-seeklogo.com.png" width="50" height="50" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-bold" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="sumatorias.html">Sumatorias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="propiedadesSumatorias.html">Propiedades de las sumatorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sumasRiemann.html">Sumas de Riemann</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="metodoTrapecio.html">Método trapecio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="metodoRectangulos.html">Método rectángulos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="crecimientoNoLineal.html">Crecimiento no lineal</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>   
+    
+    <div class="container">
+      <div class="col">
+        <h1 class="my-3 text-center" >Crecimiento no lineal</h1>
+        <p>Las relaciones lineales y exponenciales difieren en la forma en que los valores de <b>y</b>  cambian cuando los valores
+           de <b>x</b> aumentan en una cantidad constante:</p>
+           <ul>
+             <li>En una relación lineal, los valores de <b>y</b> tienen diferencias iguales.</li>
+             <li>En una relación exponencial, los valores de <b>y</b> tienen razones iguales.</li>
+           </ul>
+        <h2>Ejemplo:</h2>
+        <p>Consideremos la relación representada por esta tabla:</p>
+        <img class="img-fluid my-2" src="img/crecimiento.PNG" alt="crecimiento">
+        <p>Aquí, los valores de <b>x</b> aumentan exactamente en 111 unidad cada vez,</p>
+        <img class="img-fluid my-2" src="img/crecimiento2.PNG" alt="crecimiento-2">
+        <p>y los valores de <b>y</b> aumentan en un factor constante de 333.</p>
+        <img class="img-fluid my-2" src="img/crecimiento3.PNG" alt="crecimiento-3">
+        <p>Por lo tanto, esta relación es exponencial porque cada valor de <b>y</b> es 333 veces el valor anterior a él.</p>
+        <iframe class="my-3" width="560" height="315" src="https://www.youtube.com/embed/SIEfAD7F99Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Referencia: <a class="link-secondary cursor: pointer"  target="_blank" href="https://es.khanacademy.org/math/algebra/x2f8bb11595b61c86:exponential-growth-decay/x2f8bb11595b61c86:exponential-vs-linear-growth/a/warmup-exponential-vs-linear-growth">Crecimiento no linealKhan Academy</a></p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

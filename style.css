@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #d8e2dc;
+}
+
+.infoSum {
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+  }
+  .right img {
+    width: 90%;
+    height: 90%;
+  }
+  #sumatorio-2 {
+    width: 20%;
+    height: 20%;
+  }
+  #sumatorio-4 {
+    width: 90%;
+    height: 30%;
+  }
+  iframe {
+    width: 100%;
+    height: 20%;
+  }
+}

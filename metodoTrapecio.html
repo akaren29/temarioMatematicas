@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Navigator -->
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="https://seeklogo.com/images/C/cecytem-logo-57EA94498B-seeklogo.com.png" width="50" height="50" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse fw-bold" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="sumatorias.html">Sumatorias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="propiedadesSumatorias.html">Propiedades de las sumatorias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sumasRiemann.html">Sumas de Riemann</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="metodoTrapecio.html">Método trapecio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="metodoRectangulos.html">Método rectángulos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="crecimientoNoLineal.html">Crecimiento no lineal</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>   
+
+    <div class="container">
+      <div class="col">
+        <h1 class="my-3 text-center">Método del Trapecio</h1>
+        <img class="img-fluid mx-auto d-block" src="https://static.wixstatic.com/media/1fbe2d_eb496353f757451ca41788cd1b3d2b0a~mv2.jpg/v1/fill/w_360,h_257,al_c,q_90/1fbe2d_eb496353f757451ca41788cd1b3d2b0a~mv2.webp" alt="trapecio">
+        <p>Dentro del Cálculo Numérico, la Integración Numérica comprende una amplia familia de algoritmos para el cálculo del valor numérico de una integral definida. En la mayoría de los casos, ese valor numérico es un valor aproximado de la integral definida. Puede haber varias razones 
+          por la cuales se desee o se necesite calcular el valor numérico aproximado de una integral definida: 
+          La función integrando es desconocida, pero se conocen algunos puntos de la función, por ejemplo, puntos de datos obtenidos experimentalmente. 
+          La función integrando no tiene función primitiva, por ejemplo: 
+          La función primitiva es conocida, pero es más conveniente o más sencillo calcular numéricamente la integral definida. 
+        </p>
+        <img class="img-fluid mx-auto d-block" src="https://static.wixstatic.com/media/1fbe2d_fdba9f9305fb4f4bace47c78cf76e9cf~mv2.png/v1/fill/w_360,h_222,al_c,q_95/1fbe2d_fdba9f9305fb4f4bace47c78cf76e9cf~mv2.webp" alt="trapecio2">
+        <p>Por lo que una aproximación a la integral definida estará dada por</p>
+        <img class="img-fluid mx-auto d-block" src="https://static.wixstatic.com/media/1fbe2d_5835a696abf74e478de6b47d1c65f4fc~mv2.png/v1/fill/w_360,h_80,al_c,q_95/1fbe2d_5835a696abf74e478de6b47d1c65f4fc~mv2.webp" alt="trapecio3">
+        <p>Donde la expresión del lado derecho es la fórmula para el área del trapecio. Sin embargo, es posible mejorar esta aproximación tomando dos trapecios (n = 2), y para ello se divide el intervalo de integración [a, b], a la mitad para tener</p>
+        <img class="img-fluid mx-auto d-block" src="https://static.wixstatic.com/media/1fbe2d_dff0cc3580f84b60b891d0ccdd045e9a~mv2.png/v1/fill/w_360,h_239,al_c,lg_1,q_95/1fbe2d_dff0cc3580f84b60b891d0ccdd045e9a~mv2.webp" alt="trapecio3">
+        <p>Así que la nueva aproximación a la integral definida será</p>
+        <img class="img-fluid mx-auto d-block my-2" src="https://static.wixstatic.com/media/1fbe2d_648ea31c37e84eb9882af13e9203c72e~mv2.png/v1/fill/w_360,h_63,al_c,q_95/1fbe2d_648ea31c37e84eb9882af13e9203c72e~mv2.webp" alt="trapecio4">
+        <img class="img-fluid mx-auto d-block my-2" src="https://static.wixstatic.com/media/1fbe2d_96b0d21bc1d84357819e2719fc1ec519~mv2.png/v1/fill/w_360,h_116,al_c,q_95/1fbe2d_96b0d21bc1d84357819e2719fc1ec519~mv2.webp" alt="trapecio5">
+        <img  class="img-fluid mx-auto d-block my-2" src="https://static.wixstatic.com/media/1fbe2d_a9803670130146e7aea110baa7138497~mv2.png/v1/fill/w_360,h_73,al_c,q_95/1fbe2d_a9803670130146e7aea110baa7138497~mv2.webp" alt="trapecio6">
+        <img class="img-fluid mx-auto d-block my-2" src="https://static.wixstatic.com/media/1fbe2d_d6a09f757c404876b0a4e169c095f7ab~mv2.png/v1/fill/w_360,h_127,al_c,q_95/1fbe2d_d6a09f757c404876b0a4e169c095f7ab~mv2.webp" alt="trapecio7">
+        <img class="img-fluid mx-auto d-block my-2" src="https://static.wixstatic.com/media/1fbe2d_ccc189cc392d4aa18811f0b4d85ac13a~mv2.png/v1/fill/w_360,h_111,al_c,q_95/1fbe2d_ccc189cc392d4aa18811f0b4d85ac13a~mv2.webp" alt="trapecio8">
+        <p>Referencia: <a class="link-secondary cursor: pointer"  target="_blank" href="https://www.metodosnumericosunitec.com/post/la-qu%C3%ADmica-y-el-color-experimentos-originales">Metodo del Trapecio</a></p>
+      </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
